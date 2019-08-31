@@ -1,0 +1,15 @@
+{
+  "manifest_version" :  2,
+  "name" : "chrome-customizer",
+  "version" : "1.0.0",
+  "content_scripts" : [
+    {
+      "matches" : ["<all_urls>"],
+      "css" : ["chrome_customizer_main.css"]
+    }
+  ],
+ "browser_action" : {
+   "default_icon" : "chrome_icon.png"
+   }
+
+}
